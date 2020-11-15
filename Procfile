@@ -1,1 +1,1 @@
-web: gunicorn seemandhar.wsgi
+web: gunicorn land.wsgi
