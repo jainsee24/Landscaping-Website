@@ -20,6 +20,7 @@ from django.conf.urls import url
 from gard.views import index
 
 urlpatterns = [
+  # url(r'^', include('hide_herokuapp.urls')),
     path('admin/', admin.site.urls),
     path('',include('gard.url')),
     url(r'^.*', index)
